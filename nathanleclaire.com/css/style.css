@@ -306,8 +306,17 @@ td {
   padding: 0.2em 0; }
 
 /* ==|== primary styles =====================================================
-   Author:
+   Author: Nathan LeClaire
    ========================================================================== */
+img#githubribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0; }
+
+#logo {
+  font-family: 'Monofett', serif; }
+
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
    This example overrides the primary ('mobile first') styles
@@ -414,8 +423,3 @@ td {
 
   h2, h3 {
     page-break-after: avoid; } }
-img#githubribbon {
-  position: absolute;
-  top: 0;
-  right: 0;
-  border: 0; }

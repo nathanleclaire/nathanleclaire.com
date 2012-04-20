@@ -219,11 +219,19 @@ td { vertical-align: top; }
 
 
 /* ==|== primary styles =====================================================
-   Author:
+   Author: Nathan LeClaire
    ========================================================================== */
 
+img#githubribbon { 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    border: 0; 
+} 
 
-
+#logo {
+  font-family: 'Monofett', serif;
+}
 
 
 
@@ -292,10 +300,3 @@ td { vertical-align: top; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
-
-img#githubribbon { 
-    position: absolute; 
-    top: 0; 
-    right: 0; 
-    border: 0; 
-} 

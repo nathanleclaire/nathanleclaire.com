@@ -34,7 +34,7 @@ html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10
 
 html, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
-body { margin: 0; font-size: 1em; line-height: 1.4; }
+body { margin: 0; font-size: 1em; line-height: 1.4; height: 100%;}
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -222,6 +222,17 @@ td { vertical-align: top; }
    Author: Nathan LeClaire
    ========================================================================== */
 
+$gridwidth: 80%;
+$colwidth: $gridwidth / 12;
+
+@import url(http://fonts.googleapis.com/css?family=Mate+SC);
+@import url(http://fonts.googleapis.com/css?family=Monofett);
+
+body {
+  background: url(arches.png);
+  font-family: 'Mate SC', 'Lucida Grande', serif;
+}
+
 img#githubribbon { 
     position: absolute; 
     top: 0; 
@@ -230,21 +241,48 @@ img#githubribbon {
 } 
 
 #logo {
-  font-family: 'Monofett', serif;
-  font-size: 7em;
+  font-family: 'Monofett', 'Courier New', 'Helvetica', sans-serif;
+  font-size: 6em;
+  line-height: 1.0;
+  margin: {
+    bottom: 0%;
+  }
 }
 
+#main {
+  width: $gridwidth;
+  height: 100%;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}
 
+ul#frontpage {
+  list-style-type: none;
+  font-size: 5em;
+  line-height: 1.2;
+  margin: {
+    /* left: 25%; */
+    top: 2%;
+  }
+  text-align: center;
+  padding: 0%;
+}
 
+h2 {
+  line-height: 1.0;
+  margin: {
+    top: 0%;
+    bottom: 0%;
+    left: $colwidth;
+  }
+  font-size: 2em;
+}
 
-
-
-
-
-
-
-
-
+a:visted {
+  color:blue;
+}
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.

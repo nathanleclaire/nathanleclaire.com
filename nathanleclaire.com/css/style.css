@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Mate+SC);
+@import url(http://fonts.googleapis.com/css?family=Monofett);
 /*
  * HTML5 Boilerplate
  *
@@ -45,7 +47,8 @@ html, button, input, select, textarea {
 body {
   margin: 0;
   font-size: 1em;
-  line-height: 1.4; }
+  line-height: 1.4;
+  height: 100%; }
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -308,6 +311,10 @@ td {
 /* ==|== primary styles =====================================================
    Author: Nathan LeClaire
    ========================================================================== */
+body {
+  background: url(arches.png);
+  font-family: 'Mate SC', 'Lucida Grande', serif; }
+
 img#githubribbon {
   position: absolute;
   top: 0;
@@ -315,8 +322,35 @@ img#githubribbon {
   border: 0; }
 
 #logo {
-  font-family: 'Monofett', serif;
-  font-size: 7em; }
+  font-family: 'Monofett', 'Courier New', 'Helvetica', sans-serif;
+  font-size: 6em;
+  line-height: 1.0;
+  margin-bottom: 0%; }
+
+#main {
+  width: 80%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+ul#frontpage {
+  list-style-type: none;
+  font-size: 5em;
+  line-height: 1.2;
+  /* left: 25%; */
+  margin-top: 2%;
+  text-align: center;
+  padding: 0%; }
+
+h2 {
+  line-height: 1.0;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 6.667%;
+  font-size: 2em; }
+
+a:visted {
+  color: blue; }
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.

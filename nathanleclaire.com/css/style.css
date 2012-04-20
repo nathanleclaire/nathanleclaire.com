@@ -315,7 +315,8 @@ img#githubribbon {
   border: 0; }
 
 #logo {
-  font-family: 'Monofett', serif; }
+  font-family: 'Monofett', serif;
+  font-size: 7em; }
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.

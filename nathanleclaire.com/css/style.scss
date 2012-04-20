@@ -112,8 +112,11 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
  * 2. Remove the gap between images and borders on image containers: h5bp.com/i/440
  */
 
-img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; 
-      #githubribbon { position: absolute; top: 0; right: 0; border: 0; } }
+img { 
+  border: 0; 
+  -ms-interpolation-mode: bicubic; 
+  vertical-align: middle; 
+}
 
 /*
  * Correct overflow not hidden in IE9
@@ -270,8 +273,6 @@ td { vertical-align: top; }
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
 
-
-
 /* ==|== print styles =======================================================
    Print styles.
    Inlined to avoid required HTTP connection: h5bp.com/r
@@ -291,3 +292,10 @@ td { vertical-align: top; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
+
+img#githubribbon { 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    border: 0; 
+} 

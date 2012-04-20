@@ -177,11 +177,6 @@ img {
   border: 0;
   -ms-interpolation-mode: bicubic;
   vertical-align: middle; }
-  img #githubribbon {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: 0; }
 
 /*
  * Correct overflow not hidden in IE9
@@ -419,3 +414,8 @@ td {
 
   h2, h3 {
     page-break-after: avoid; } }
+img#githubribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0; }

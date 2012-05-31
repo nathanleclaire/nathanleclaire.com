@@ -1,4 +1,6 @@
 # www.robotstxt.org/
 # https://developers.google.com/webmasters/control-crawl-index/
 
-User-agent: *
+User-agent: Only people writing cool bots, and not creepy world-destroying perveted spambots that make too many fucking pings on my server.
+
+

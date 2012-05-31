@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+	<head><title>Blog Entry Page</title></head>
+<body>
+{% block body %}
+	<h2>Make Blog Entry</h2>
+	{% if error %}<p class="error"><strong>Error:</strong> {{ error }}{% endif %}
+	<form action="{{ url_for('scribble') }}" method="post">
+		<dl>
+			<dt>Entry Title:
+			<dd><input type="text" name="posttitle">
+			<dt>Entry Content:
+			<dd><textarea name="postcontent" rows="5" cols="40"></textarea>
+			<dd><input type="submit" value="Make Entry">
+		</dl>
+	</form>
+{% endblock %}
+</body>
+</html>

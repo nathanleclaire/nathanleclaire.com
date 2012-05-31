@@ -239,6 +239,11 @@ img#githubribbon {
     border: 0; 
 } 
 
+div#headerbg {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
 #header {
   font-family: 'Mate SC', 'Lucida Grande', serif;
 }
@@ -248,17 +253,13 @@ img#githubribbon {
   font-size: 6em;
   line-height: 1.0;
   margin: {
-    bottom: 0%;
+    bottom: 1%;
+    left: $colwidth;
   }
 }
 
 #main {
-  width: $gridwidth;
   height: 100%;
-  margin: {
-    left: auto;
-    right: auto;
-  }
 }
 
 p {
@@ -290,7 +291,12 @@ h2 {
 }
 
 h3 {
-  margin: 0%;
+  text-decoration: underline;
+  margin: {
+    left: $colwidth * 2;
+    bottom: 8px;
+    top: 8px;
+  }
   color: #FF4500;
   font-size: 2em;
   font-family: 'Mate SC', 'Lucida Grande', serif;
@@ -299,6 +305,7 @@ h3 {
 a:visted {
   color:blue;
 }
+
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.

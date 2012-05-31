@@ -312,14 +312,17 @@ td {
    Author: Nathan LeClaire
    ========================================================================== */
 body {
-  background: url(../img/arches.png);
-  font-family: 'Helvetica', 'Lucida Grande', 'Arial', sans-serif; }
+  background: url(../img/arches.png); }
 
 img#githubribbon {
   position: absolute;
   top: 0;
   right: 0;
   border: 0; }
+
+div#headerbg {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7); }
 
 #header {
   font-family: 'Mate SC', 'Lucida Grande', serif; }
@@ -328,13 +331,11 @@ img#githubribbon {
   font-family: 'Monofett', 'Courier New', 'Helvetica', sans-serif;
   font-size: 6em;
   line-height: 1.0;
-  margin-bottom: 0%; }
+  margin-bottom: 1%;
+  margin-left: 7.5%; }
 
 #main {
-  width: 90%;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto; }
+  height: 100%; }
 
 p {
   font-family: serif;
@@ -358,7 +359,10 @@ h2 {
   font-family: 'Mate SC', 'Lucida Grande', serif; }
 
 h3 {
-  margin: 0%;
+  text-decoration: underline;
+  margin-left: 15%;
+  margin-bottom: 8px;
+  margin-top: 8px;
   color: #FF4500;
   font-size: 2em;
   font-family: 'Mate SC', 'Lucida Grande', serif; }

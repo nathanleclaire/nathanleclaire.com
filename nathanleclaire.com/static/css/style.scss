@@ -254,7 +254,7 @@ div#headerbg {
   line-height: 1.0;
   margin: {
     bottom: 0.2%;
-    left: $colwidth;
+    left: 4%;
   }
 }
 
@@ -268,7 +268,7 @@ div#headerbg {
   width: 60%;
   margin: {
     top: 1%;
-    left: 3%;
+    left: 4%;
   }
   -webkit-box-shadow: 5px -6px 5px rgba(12, 0, 12, 0.53);
   -moz-box-shadow:    5px -6px 5px rgba(12, 0, 12, 0.53);
@@ -280,7 +280,6 @@ p {
   font-family: serif;
   font-size: 16px;
   margin: {
-    left: $colwidth*.5;
     top: 0%;
     bottom: 0%;
   }
@@ -294,7 +293,11 @@ ul#frontpage {
 }
 
 .blog-entry {
-  padding: 2.2%;
+  padding:{
+    top: 1.0%;
+    left: 2.2%;
+    bottom: 2.2%;
+  }
 }
 
 h2 {
@@ -311,7 +314,6 @@ h2 {
 h3 {
   text-decoration: underline;
   margin: {
-    left: $colwidth;
     bottom: 0.2%;
     top: 0%;
   }

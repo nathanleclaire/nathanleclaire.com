@@ -241,10 +241,12 @@ img#githubribbon {
 
 div#headerbg {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.7);
+  padding-bottom: .7%;
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 #header {
+
   font-family: 'Mate SC', 'Lucida Grande', serif;
 }
 
@@ -263,7 +265,7 @@ div#headerbg {
 }
 
 .blogg {
-  border-radius: 40px;
+  border-radius: 14px;
   background-color: rgba(255, 255, 255, 0.7);
   width: 60%;
   margin: {
@@ -296,6 +298,7 @@ ul#frontpage {
   padding:{
     top: 1.0%;
     left: 2.2%;
+    right: 2.2%;
     bottom: 2.2%;
   }
 }
@@ -328,6 +331,7 @@ a:visted {
 
 img {
   max-width: 100%;
+  border-radius: 14px;
 }
 
 

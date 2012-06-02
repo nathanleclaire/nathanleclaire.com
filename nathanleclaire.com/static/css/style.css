@@ -322,7 +322,8 @@ img#githubribbon {
 
 div#headerbg {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.7); }
+  padding-bottom: .7%;
+  background-color: rgba(255, 255, 255, 0.85); }
 
 #header {
   font-family: 'Mate SC', 'Lucida Grande', serif; }
@@ -338,7 +339,7 @@ div#headerbg {
   height: 100%; }
 
 .blogg {
-  border-radius: 40px;
+  border-radius: 14px;
   background-color: rgba(255, 255, 255, 0.7);
   width: 60%;
   margin-top: 1%;
@@ -363,6 +364,7 @@ ul#frontpage {
 .blog-entry {
   padding-top: 1.0%;
   padding-left: 2.2%;
+  padding-right: 2.2%;
   padding-bottom: 2.2%; }
 
 h2 {
@@ -385,7 +387,8 @@ a:visted {
   color: blue; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  border-radius: 14px; }
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.

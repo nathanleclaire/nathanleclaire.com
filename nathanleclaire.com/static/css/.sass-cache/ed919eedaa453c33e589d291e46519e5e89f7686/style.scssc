@@ -1,7 +1,7 @@
 3.1.17 (Brainy Betty)
-6b41e645faf4831751ac9139fddebac3312bf582
+99abcbace4b073352a889be0ea516950ef18a3cf
 o:Sass::Tree::RootNode
-:@template"[,/*
+:@template"Z,/*
  * HTML5 Boilerplate
  *
  * What follows is the result of much research on cross-browser styling.
@@ -317,7 +317,7 @@ a:visted {
 }
 
 img {
-  max-height: 100%;
+  max-width: 100%;
 }
 
 
@@ -786,7 +786,7 @@ color;@;o;;@;;;"#FF4500;	i3;
 [o;;i ;["
 color;@;o;;@;;;"	blue;	i9;
 [ ;; o;;i ;@;T;["img;o;;[o;;[o;;[o;	;["img;0;" ;	i<;@‰	;	i<;@‰	;	i<;	i<;
-[o;;i ;["max-height;@;o;;@;;;"	100%;	i=;
+[o;;i ;["max-width;@;o;;@;;;"	100%;	i=;
 [ ;; o;;@;0;0;[")/* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
    This example overrides the primary ('mobile first') styles

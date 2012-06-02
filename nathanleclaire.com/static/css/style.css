@@ -332,7 +332,7 @@ div#headerbg {
   font-size: 4em;
   line-height: 1.0;
   margin-bottom: 0.2%;
-  margin-left: 7.5%; }
+  margin-left: 6.667%; }
 
 #main {
   height: 100%; }
@@ -340,7 +340,7 @@ div#headerbg {
 p {
   font-family: serif;
   font-size: 16px;
-  margin-left: 3.75%;
+  margin-left: 3.333%;
   margin-top: 0%;
   margin-bottom: 0%; }
 
@@ -358,13 +358,13 @@ h2 {
   line-height: 1.0;
   margin-top: 0%;
   margin-bottom: 0.2%;
-  margin-left: 7.5%;
+  margin-left: 6.667%;
   font-size: 2em;
   font-family: 'Mate SC', 'Lucida Grande', serif; }
 
 h3 {
   text-decoration: underline;
-  margin-left: 15%;
+  margin-left: 13.333%;
   margin-bottom: 0.2%;
   margin-top: 0%;
   color: #FF4500;

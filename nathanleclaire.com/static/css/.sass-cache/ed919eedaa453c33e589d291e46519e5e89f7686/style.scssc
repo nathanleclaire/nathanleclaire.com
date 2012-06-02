@@ -1,5 +1,5 @@
 3.1.17 (Brainy Betty)
-1c8e914c366f2fee24e2806eeb50c146ceaff8a1
+f3e5c191b10e19fc5f8a21931e45099be551bd2c
 o:Sass::Tree::RootNode
 :@template"B,/*
  * HTML5 Boilerplate
@@ -225,7 +225,7 @@ td { vertical-align: top; }
    Author: Nathan LeClaire
    ========================================================================== */
 
-$gridwidth: 90%;
+$gridwidth: 80%;
 $colwidth: $gridwidth / 12;
 
 @import url(http://fonts.googleapis.com/css?family=Mate+SC);
@@ -705,7 +705,7 @@ black;	iÚ;
    Author: Nathan LeClaire
    ========================================================================== */;	iÝ;
 [ o:Sass::Tree::VariableNode:
-@expro;);*["%;@;+"90%;i_;	iá;,[ ;"gridwidth;@:@guarded0;	iá;
+@expro;);*["%;@;+"80%;iU;	iá;,[ ;"gridwidth;@:@guarded0;	iá;
 [ o;.;/o:Sass::Script::Operation
 :@operand2o;);*[ ;@;+"12;i;	iâ;,[ ;@:@operand1o:Sass::Script::Variable	;"gridwidth;@:@underscored_name"gridwidth;	iâ;$:div;	iâ;"colwidth;@;00;	iâ;
 [ o:Sass::Tree::DirectiveNode	;@;"@@import url(http://fonts.googleapis.com/css?family=Mate+SC);	iä;

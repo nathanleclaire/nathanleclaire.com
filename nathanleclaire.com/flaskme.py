@@ -10,8 +10,8 @@ from contextlib import closing
 DATABASE = '/tmp/flaskr.db'
 DEBUG = True
 SECRET_KEY = 'development key'
-USERNAME = 'zenlikethat'
-PASSWORD = 'every time i make a point she makes a counterpoint'
+USERNAME = 'admin'
+PASSWORD = 'everytime i make a point she makes a counterpoint'
 
 app = Flask(__name__)
 app.config.from_object(__name__)

@@ -331,7 +331,7 @@ div#headerbg {
   font-family: 'Monofett', 'Courier New', 'Helvetica', sans-serif;
   font-size: 6em;
   line-height: 1.0;
-  margin-bottom: 1%;
+  margin-bottom: 0.2%;
   margin-left: 7.5%; }
 
 #main {
@@ -350,10 +350,14 @@ ul#frontpage {
   line-height: 1.0;
   padding: 0%; }
 
+.blog-entry {
+  width: 60%;
+  margin-left: 3%; }
+
 h2 {
   line-height: 1.0;
   margin-top: 0%;
-  margin-bottom: 1%;
+  margin-bottom: 0.2%;
   margin-left: 7.5%;
   font-size: 2em;
   font-family: 'Mate SC', 'Lucida Grande', serif; }
@@ -361,8 +365,8 @@ h2 {
 h3 {
   text-decoration: underline;
   margin-left: 15%;
-  margin-bottom: 8px;
-  margin-top: 8px;
+  margin-bottom: 0%;
+  margin-top: 0%;
   color: #FF4500;
   font-size: 2em;
   font-family: 'Mate SC', 'Lucida Grande', serif; }

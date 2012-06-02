@@ -36,17 +36,17 @@
 <a href="http://github.com/nathanleclaire">
   	<img id="githubribbon" src="../static/img/ghribbon.png" alt="Fork me on GitHub">
 </a>
-
+</div>
 </div>
 
-</div>
-
+<div class="blog-entry">
 {% for entry in entries %}
   <h3>{{ entry.title }}</h3>
   <p>{{ entry.text|safe }}</p>
 {% else %}
   <p>No entries so far.</p>
 {% endfor %}
+</div>
 
 </div>
   <!-- JavaScript at the bottom for fast page loading: http://developer.yahoo.com/performance/rules.html#js_bottom -->

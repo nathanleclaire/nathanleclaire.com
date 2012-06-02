@@ -1,7 +1,7 @@
 3.1.17 (Brainy Betty)
-99abcbace4b073352a889be0ea516950ef18a3cf
+567c671a1b4cb1e3fd7d91f6cb36119e5286d109
 o:Sass::Tree::RootNode
-:@template"Z,/*
+:@template"i,/*
  * HTML5 Boilerplate
  *
  * What follows is the result of much research on cross-browser styling.
@@ -318,6 +318,7 @@ a:visted {
 
 img {
   max-width: 100%;
+  width: 100%;
 }
 
 
@@ -786,158 +787,158 @@ color;@;o;;@;;;"#FF4500;	i3;
 [o;;i ;["
 color;@;o;;@;;;"	blue;	i9;
 [ ;; o;;i ;@;T;["img;o;;[o;;[o;;[o;	;["img;0;" ;	i<;@‰	;	i<;@‰	;	i<;	i<;
-[o;;i ;["max-width;@;o;;@;;;"	100%;	i=;
+[o;;i ;["max-width;@;o;;@;;;"	100%;	i=;
+[ ;; o;;i ;["
+width;@;o;;@;;;"	100%;	i>;
 [ ;; o;;@;0;0;[")/* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
    This example overrides the primary ('mobile first') styles
    Modify as content requires.
-   ========================================================================== */;	iA;
-[ o:Sass::Tree::MediaNode;i :@query["&only screen and (min-width: 35em);@;T;" ;	iG;
-[o;;@;0;0;["B/* Style adjustments for viewports that meet the condition */;	iH;
+   ========================================================================== */;	iB;
+[ o:Sass::Tree::MediaNode;i :@query["&only screen and (min-width: 35em);@;T;" ;	iH;
+[o;;@;0;0;["B/* Style adjustments for viewports that meet the condition */;	iI;
 [ o;;@;0;0;["Ð/* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
-   ========================================================================== */;	iM;
-[ o;;@;0;0;[" /* For image replacement */;	iQ;
-[ o;;i ;@;T;[".ir;o;;[o;;[o;;[o;-;["ir;" ;	iR;@²	;	iR;@²	;	iR;	iR;
+   ========================================================================== */;	iN;
+[ o;;@;0;0;[" /* For image replacement */;	iR;
+[ o;;i ;@;T;[".ir;o;;[o;;[o;;[o;-;["ir;" ;	iS;@¸	;	iS;@¸	;	iS;	iS;
 [
-o;;i ;["border;@;o;;@;;;"0;	iR;
+o;;i ;["border;@;o;;@;;;"0;	iS;
 [ ;; o;;i ;["	font;@;o:Sass::Script::List	:@separator:
 space;@;[o;1
-;2o;);*[ ;@;+"0;i ;	iR;,@;@;3o;);*[ ;@;+"0;i ;	iR;,@;$;6;	iRo;	;@;;;"a;	iR;	iR;	iR;
-[ ;; o;;i ;["text-shadow;@;o;;@;;;"	none;	iR;
+;2o;);*[ ;@;+"0;i ;	iS;,@;@;3o;);*[ ;@;+"0;i ;	iS;,@;$;6;	iSo;	;@;;;"a;	iS;	iS;	iS;
+[ ;; o;;i ;["text-shadow;@;o;;@;;;"	none;	iS;
 [ ;; o;;i ;["
-color;@;o;;@;;;"transparent;	iR;
-[ ;; o;;i ;["background-color;@;o;;@;;;"transparent;	iR;
-[ ;; o;;@;0;0;["@/* Hide from both screenreaders and browsers: h5bp.com/u */;	iT;
-[ o;;i ;@;T;[".hidden;o;;[o;;[o;;[o;-;["hidden;" ;	iU;@ë	;	iU;@ë	;	iU;	iU;
-[o;;i ;["display;@;o;;@;;;"none !important;	iU;
-[ ;; o;;i ;["visibility;@;o;;@;;;"hidden;	iU;
-[ ;; o;;@;0;0;["R/* Hide only visually, but have it available for screenreaders: h5bp.com/v */;	iW;
-[ o;;i ;@;T;[".visuallyhidden;o;;[o;;[o;;[o;-;["visuallyhidden;" ;	iX;@	
-;	iX;@	
-;	iX;	iX;
-[o;;i ;["border;@;o;;@;;;"0;	iX;
+color;@;o;;@;;;"transparent;	iS;
+[ ;; o;;i ;["background-color;@;o;;@;;;"transparent;	iS;
+[ ;; o;;@;0;0;["@/* Hide from both screenreaders and browsers: h5bp.com/u */;	iU;
+[ o;;i ;@;T;[".hidden;o;;[o;;[o;;[o;-;["hidden;" ;	iV;@ñ	;	iV;@ñ	;	iV;	iV;
+[o;;i ;["display;@;o;;@;;;"none !important;	iV;
+[ ;; o;;i ;["visibility;@;o;;@;;;"hidden;	iV;
+[ ;; o;;@;0;0;["R/* Hide only visually, but have it available for screenreaders: h5bp.com/v */;	iX;
+[ o;;i ;@;T;[".visuallyhidden;o;;[o;;[o;;[o;-;["visuallyhidden;" ;	iY;@
+;	iY;@
+;	iY;	iY;
+[o;;i ;["border;@;o;;@;;;"0;	iY;
 [ ;; o;;i ;["	clip;@;o;9
-;"	rect;:{ ;@;;[o;?	;@;A;@;[	o;);*[ ;@;+"0;i ;	iX;,@o;);*[ ;@;+"0;i ;	iX;,@o;);*[ ;@;+"0;i ;	iX;,@o;);*[ ;@;+"0;i ;	iX;,@;	iX;	iX;	iX;
-[ ;; o;;i ;["height;@;o;;@;;;"1px;	iX;
-[ ;; o;;i ;["margin;@;o;);*["px;@;+"	-1px;iú;	iX;,[ ;	iX;
-[ ;; o;;i ;["overflow;@;o;;@;;;"hidden;	iX;
-[ ;; o;;i ;["padding;@;o;;@;;;"0;	iX;
-[ ;; o;;i ;["position;@;o;;@;;;"absolute;	iX;
+;"	rect;:{ ;@;;[o;?	;@;A;@;[	o;);*[ ;@;+"0;i ;	iY;,@o;);*[ ;@;+"0;i ;	iY;,@o;);*[ ;@;+"0;i ;	iY;,@o;);*[ ;@;+"0;i ;	iY;,@;	iY;	iY;	iY;
+[ ;; o;;i ;["height;@;o;;@;;;"1px;	iY;
+[ ;; o;;i ;["margin;@;o;);*["px;@;+"	-1px;iú;	iY;,[ ;	iY;
+[ ;; o;;i ;["overflow;@;o;;@;;;"hidden;	iY;
+[ ;; o;;i ;["padding;@;o;;@;;;"0;	iY;
+[ ;; o;;i ;["position;@;o;;@;;;"absolute;	iY;
 [ ;; o;;i ;["
-width;@;o;;@;;;"1px;	iX;
-[ ;; o;;@;0;0;["{/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */;	iZ;
-[ o;;i ;@;T;["F.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus;o;;[o;;[o;;[o;-;["visuallyhidden;" ;	i[o;-;["focusable;@^
-;	i[o;%
-;["active;;(;@^
-;'0;	i[;@^
-;	i[o;;[o;;[o;-;["visuallyhidden;@^
-;	i[o;-;["focusable;@^
-;	i[o;%
+width;@;o;;@;;;"1px;	iY;
+[ ;; o;;@;0;0;["{/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */;	i[;
+[ o;;i ;@;T;["F.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus;o;;[o;;[o;;[o;-;["visuallyhidden;" ;	i\o;-;["focusable;@d
+;	i\o;%
+;["active;;(;@d
+;'0;	i\;@d
+;	i\o;;[o;;[o;-;["visuallyhidden;@d
+;	i\o;-;["focusable;@d
+;	i\o;%
 ;["
-focus;;(;@^
-;'0;	i[;@^
-;	i[;@^
-;	i[;	i[;
-[o;;i ;["	clip;@;o;;@;;;"	auto;	i[;
-[ ;; o;;i ;["height;@;o;;@;;;"	auto;	i[;
-[ ;; o;;i ;["margin;@;o;;@;;;"0;	i[;
-[ ;; o;;i ;["overflow;@;o;;@;;;"visible;	i[;
-[ ;; o;;i ;["position;@;o;;@;;;"static;	i[;
+focus;;(;@d
+;'0;	i\;@d
+;	i\;@d
+;	i\;	i\;
+[o;;i ;["	clip;@;o;;@;;;"	auto;	i\;
+[ ;; o;;i ;["height;@;o;;@;;;"	auto;	i\;
+[ ;; o;;i ;["margin;@;o;;@;;;"0;	i\;
+[ ;; o;;i ;["overflow;@;o;;@;;;"visible;	i\;
+[ ;; o;;i ;["position;@;o;;@;;;"static;	i\;
 [ ;; o;;i ;["
-width;@;o;;@;;;"	auto;	i[;
-[ ;; o;;@;0;0;["D/* Hide visually and from screenreaders, but maintain layout */;	i];
-[ o;;i ;@;T;[".invisible;o;;[o;;[o;;[o;-;["invisible;" ;	i^;@§
-;	i^;@§
-;	i^;	i^;
-[o;;i ;["visibility;@;o;;@;;;"hidden;	i^;
-[ ;; o;;@;0;0;["%/* Contain floats: h5bp.com/q */;	i`;
-[ o;;i ;@;T;["&.clearfix:before, .clearfix:after;o;;[o;;[o;;[o;-;["clearfix;" ;	iao;%
-;["before;;(;@¿
-;'0;	ia;@¿
-;	iao;;[o;;[o;-;["clearfix;@¿
-;	iao;%
+width;@;o;;@;;;"	auto;	i\;
+[ ;; o;;@;0;0;["D/* Hide visually and from screenreaders, but maintain layout */;	i^;
+[ o;;i ;@;T;[".invisible;o;;[o;;[o;;[o;-;["invisible;" ;	i_;@­
+;	i_;@­
+;	i_;	i_;
+[o;;i ;["visibility;@;o;;@;;;"hidden;	i_;
+[ ;; o;;@;0;0;["%/* Contain floats: h5bp.com/q */;	ia;
+[ o;;i ;@;T;["&.clearfix:before, .clearfix:after;o;;[o;;[o;;[o;-;["clearfix;" ;	ibo;%
+;["before;;(;@Å
+;'0;	ib;@Å
+;	ibo;;[o;;[o;-;["clearfix;@Å
+;	ibo;%
 ;["
-after;;(;@¿
-;'0;	ia;@¿
-;	ia;@¿
-;	ia;	ia;
-[o;;i ;["content;@;o;;@;;;""";	ia;
-[ ;; o;;i ;["display;@;o;;@;;;"
-table;	ia;
-[ ;; o;;i ;@;T;[".clearfix:after;o;;[o;;[o;;[o;-;["clearfix;" ;	ibo;%
-;["
-after;;(;@æ
-;'0;	ib;@æ
-;	ib;@æ
+after;;(;@Å
+;'0;	ib;@Å
+;	ib;@Å
 ;	ib;	ib;
-[o;;i ;["
-clear;@;o;;@;;;"	both;	ib;
-[ ;; o;;i ;@;T;[".clearfix;o;;[o;;[o;;[o;-;["clearfix;" ;	ic;@ý
-;	ic;@ý
+[o;;i ;["content;@;o;;@;;;""";	ib;
+[ ;; o;;i ;["display;@;o;;@;;;"
+table;	ib;
+[ ;; o;;i ;@;T;[".clearfix:after;o;;[o;;[o;;[o;-;["clearfix;" ;	ico;%
+;["
+after;;(;@ì
+;'0;	ic;@ì
+;	ic;@ì
 ;	ic;	ic;
 [o;;i ;["
-*zoom;@;o;;@;;;"1;	ic;
+clear;@;o;;@;;;"	both;	ic;
+[ ;; o;;i ;@;T;[".clearfix;o;;[o;;[o;;[o;-;["clearfix;" ;	id;@;	id;@;	id;	id;
+[o;;i ;["
+*zoom;@;o;;@;;;"1;	id;
 [ ;; o;;@;0;0;["è/* ==|== print styles =======================================================
    Print styles.
    Inlined to avoid required HTTP connection: h5bp.com/r
-   ========================================================================== */;	ie;
+   ========================================================================== */;	if;
 [ o;=;i ;>["
-print;@;T;" ;	ij;
-[o;;i ;@;T;["*;o;;[o;;[o;;[o:Sass::Selector::Universal;0;" ;	ik;@;	ik;@;	ik;	ik;
-[	o;;i ;["background;@;o;;@;;;"transparent !important;	ik;
+print;@;T;" ;	ik;
+[o;;i ;@;T;["*;o;;[o;;[o;;[o:Sass::Selector::Universal;0;" ;	il;@;	il;@;	il;	il;
+[	o;;i ;["background;@;o;;@;;;"transparent !important;	il;
 [ ;; o;;i ;["
-color;@;o;;@;;;"black !important;	ik;
-[ ;; o;;i ;["box-shadow;@;o;;@;;;"none !important;	ik;
-[ ;; o;;i ;["text-shadow;@;o;;@;;;"none !important;	ik;
-[ ;; o;;@;0;0;["*/* Black prints faster: h5bp.com/s */;	ik;
-[ o;;i ;@;T;["a, a:visited;o;;[o;;[o;;[o;	;["a;0;" ;	il;@B;	ilo;;[o;;[o;	;["a;0;@B;	ilo;%
-;["visited;;(;@B;'0;	il;@B;	il;@B;	il;	il;
-[o;;i ;["text-decoration;@;o;;@;;;"underline;	il;
-[ ;; o;;i ;@;T;["a[href]:after;o;;[o;;[o;;[o;	;["a;0;" ;	imo;#;["	href;0;$0;@`;0;	imo;%
+color;@;o;;@;;;"black !important;	il;
+[ ;; o;;i ;["box-shadow;@;o;;@;;;"none !important;	il;
+[ ;; o;;i ;["text-shadow;@;o;;@;;;"none !important;	il;
+[ ;; o;;@;0;0;["*/* Black prints faster: h5bp.com/s */;	il;
+[ o;;i ;@;T;["a, a:visited;o;;[o;;[o;;[o;	;["a;0;" ;	im;@H;	imo;;[o;;[o;	;["a;0;@H;	imo;%
+;["visited;;(;@H;'0;	im;@H;	im;@H;	im;	im;
+[o;;i ;["text-decoration;@;o;;@;;;"underline;	im;
+[ ;; o;;i ;@;T;["a[href]:after;o;;[o;;[o;;[o;	;["a;0;" ;	ino;#;["	href;0;$0;@f;0;	ino;%
 ;["
-after;;(;@`;'0;	im;@`;	im;@`;	im;	im;
-[o;;i ;["content;@;o;?	;@;A;@;[o;	;@;:string;" (;	imo;9
-;"	attr;:{ ;@;;[o;	;@;;;"	href;	im;	imo;	;@;;C;");	im;	im;	im;
-[ ;; o;;i ;@;T;["abbr[title]:after;o;;[o;;[o;;[o;	;["	abbr;0;" ;	ino;#;["
-title;0;$0;@„;0;	ino;%
+after;;(;@f;'0;	in;@f;	in;@f;	in;	in;
+[o;;i ;["content;@;o;?	;@;A;@;[o;	;@;:string;" (;	ino;9
+;"	attr;:{ ;@;;[o;	;@;;;"	href;	in;	ino;	;@;;C;");	in;	in;	in;
+[ ;; o;;i ;@;T;["abbr[title]:after;o;;[o;;[o;;[o;	;["	abbr;0;" ;	ioo;#;["
+title;0;$0;@Š;0;	ioo;%
 ;["
-after;;(;@„;'0;	in;@„;	in;@„;	in;	in;
-[o;;i ;["content;@;o;?	;@;A;@;[o;	;@;;C;" (;	ino;9
+after;;(;@Š;'0;	io;@Š;	io;@Š;	io;	io;
+[o;;i ;["content;@;o;?	;@;A;@;[o;	;@;;C;" (;	ioo;9
 ;"	attr;:{ ;@;;[o;	;@;;;"
-title;	in;	ino;	;@;;C;");	in;	in;	in;
-[ ;; o;;i ;@;T;["B.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after;o;;[o;;[o;;[o;-;["ir;" ;	io;@¨;	ioo;;[o;	;["a;0;@¨;	ioo;%
+title;	io;	ioo;	;@;;C;");	io;	io;	io;
+[ ;; o;;i ;@;T;["B.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after;o;;[o;;[o;;[o;-;["ir;" ;	ip;@®;	ipo;;[o;	;["a;0;@®;	ipo;%
 ;["
-after;;(;@¨;'0;	io;@¨;	ioo;;[o;;[o;	;["a;0;@¨;	ioo;#;["	href;0;$"^=;@¨;[""javascript:";	ioo;%
+after;;(;@®;'0;	ip;@®;	ipo;;[o;;[o;	;["a;0;@®;	ipo;#;["	href;0;$"^=;@®;[""javascript:";	ipo;%
 ;["
-after;;(;@¨;'0;	io;@¨;	ioo;;[o;;[o;	;["a;0;@¨;	ioo;#;["	href;0;$"^=;@¨;[""#";	ioo;%
+after;;(;@®;'0;	ip;@®;	ipo;;[o;;[o;	;["a;0;@®;	ipo;#;["	href;0;$"^=;@®;[""#";	ipo;%
 ;["
-after;;(;@¨;'0;	io;@¨;	io;@¨;	io;	io;
-[o;;i ;["content;@;o;;@;;;""";	io;
-[ ;; o;;@;0;0;["D/* Don't show links for images, or javascript/internal links */;	io;
-[ o;;i ;@;T;["pre, blockquote;o;;[o;;[o;;[o;	;["pre;0;" ;	ip;@è;	ipo;;[o;;[o;	;["blockquote;0;@è;	ip;@è;	ip;@è;	ip;	ip;
-[o;;i ;["border;@;o;;@;;;"1px solid #999;	ip;
+after;;(;@®;'0;	ip;@®;	ip;@®;	ip;	ip;
+[o;;i ;["content;@;o;;@;;;""";	ip;
+[ ;; o;;@;0;0;["D/* Don't show links for images, or javascript/internal links */;	ip;
+[ o;;i ;@;T;["pre, blockquote;o;;[o;;[o;;[o;	;["pre;0;" ;	iq;@î;	iqo;;[o;;[o;	;["blockquote;0;@î;	iq;@î;	iq;@î;	iq;	iq;
+[o;;i ;["border;@;o;;@;;;"1px solid #999;	iq;
 [ ;; o;;i ;["page-break-inside;@;o;;@;;;"
-avoid;	ip;
+avoid;	iq;
 [ ;; o;;i ;@;T;["
 thead;o;;[o;;[o;;[o;	;["
-thead;0;" ;	iq;@	;	iq;@	;	iq;	iq;
-[o;;i ;["display;@;o;;@;;;"table-header-group;	iq;
-[ ;; o;;@;0;0;["/* h5bp.com/t */;	iq;
-[ o;;i ;@;T;["tr, img;o;;[o;;[o;;[o;	;["tr;0;" ;	ir;@!;	iro;;[o;;[o;	;["img;0;@!;	ir;@!;	ir;@!;	ir;	ir;
+thead;0;" ;	ir;@;	ir;@;	ir;	ir;
+[o;;i ;["display;@;o;;@;;;"table-header-group;	ir;
+[ ;; o;;@;0;0;["/* h5bp.com/t */;	ir;
+[ o;;i ;@;T;["tr, img;o;;[o;;[o;;[o;	;["tr;0;" ;	is;@';	iso;;[o;;[o;	;["img;0;@';	is;@';	is;@';	is;	is;
 [o;;i ;["page-break-inside;@;o;;@;;;"
-avoid;	ir;
-[ ;; o;;i ;@;T;["img;o;;[o;;[o;;[o;	;["img;0;" ;	is;@<;	is;@<;	is;	is;
-[o;;i ;["max-width;@;o;;@;;;"100% !important;	is;
+avoid;	is;
+[ ;; o;;i ;@;T;["img;o;;[o;;[o;;[o;	;["img;0;" ;	it;@B;	it;@B;	it;	it;
+[o;;i ;["max-width;@;o;;@;;;"100% !important;	it;
 [ ;; o;7
 ;@;T;"
-@page;	it;
+@page;	iu;
 [o;;i ;["margin;@;o;;@;;;"
-0.5cm;	it;
-[ ;; o;;i ;@;T;["p, h2, h3;o;;[o;;[o;;[o;	;["p;0;" ;	iu;@Y;	iuo;;[o;;[o;	;["h2;0;@Y;	iu;@Y;	iuo;;[o;;[o;	;["h3;0;@Y;	iu;@Y;	iu;@Y;	iu;	iu;
-[o;;i ;["orphans;@;o;;@;;;"3;	iu;
-[ ;; o;;i ;["widows;@;o;;@;;;"3;	iu;
-[ ;; o;;i ;@;T;["h2, h3;o;;[o;;[o;;[o;	;["h2;0;" ;	iv;@;	ivo;;[o;;[o;	;["h3;0;@;	iv;@;	iv;@;	iv;	iv;
+0.5cm;	iu;
+[ ;; o;;i ;@;T;["p, h2, h3;o;;[o;;[o;;[o;	;["p;0;" ;	iv;@_;	ivo;;[o;;[o;	;["h2;0;@_;	iv;@_;	ivo;;[o;;[o;	;["h3;0;@_;	iv;@_;	iv;@_;	iv;	iv;
+[o;;i ;["orphans;@;o;;@;;;"3;	iv;
+[ ;; o;;i ;["widows;@;o;;@;;;"3;	iv;
+[ ;; o;;i ;@;T;["h2, h3;o;;[o;;[o;;[o;	;["h2;0;" ;	iw;@‡;	iwo;;[o;;[o;	;["h3;0;@‡;	iw;@‡;	iw;@‡;	iw;	iw;
 [o;;i ;["page-break-after;@;o;;@;;;"
-avoid;	iv;
+avoid;	iw;
 [ ;; 

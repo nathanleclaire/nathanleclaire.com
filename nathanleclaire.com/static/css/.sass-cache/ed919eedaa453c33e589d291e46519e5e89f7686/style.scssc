@@ -1,5 +1,5 @@
 3.1.17 (Brainy Betty)
-966459cadff8c0ab3e82562aa7aa9b01f189b231
+a72d6b9dbe9050fca018a119789c13c3c21ffec3
 o:Sass::Tree::RootNode
 :@template">,/*
  * HTML5 Boilerplate
@@ -253,7 +253,7 @@ div#headerbg {
 
 #logo {
   font-family: 'Monofett', 'Courier New', 'Helvetica', sans-serif;
-  font-size: 4em;
+  font-size: 3em;
   line-height: 1.0;
   margin: {
     bottom: 0.2%;
@@ -729,7 +729,7 @@ width;@;o;;@;;;"	100%;	ió;
 [ ;; o;;i ;@;T;["
 #logo;o;;[o;;[o;;[o;8;["	logo;" ;	iû;@2;	iû;@2;	iû;	iû;
 [	o;;i ;["font-family;@;o;;@;;;"7'Monofett', 'Courier New', 'Helvetica', sans-serif;	iü;
-[ ;; o;;i ;["font-size;@;o;;@;;;"4em;	iý;
+[ ;; o;;i ;["font-size;@;o;;@;;;"3em;	iý;
 [ ;; o;;i ;["line-height;@;o;;@;;;"1.0;	iþ;
 [ ;; o;;i ;["margin;@;T;o;;@;;;" ;	iÿ;
 [o;;i ;["bottom;@;o;;@;;;"	0.2%;	i ;

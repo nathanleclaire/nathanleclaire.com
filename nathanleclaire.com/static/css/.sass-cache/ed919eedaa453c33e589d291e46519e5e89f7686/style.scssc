@@ -1,5 +1,5 @@
 3.1.17 (Brainy Betty)
-83f0eb12208f407f5a8f527c9f8cbd5024bc919c
+0c0b8d8ed865ac45d24faa9da705d05b082bdde1
 o:Sass::Tree::RootNode
 :@template"Ò-/*
  * HTML5 Boilerplate
@@ -309,10 +309,10 @@ h2 {
   line-height: 1.0;
   margin: {
     top: 0%;
-    bottom: 0.2%;
+    bottom: 0.9%;
     left: $colwidth;
   }
-  font-size: 2em;
+  font-size: 1em;
   font-family: 'Mate SC', 'Lucida Grande', serif;
 }
 
@@ -806,9 +806,9 @@ right;@;o;;@;;;"	2.2%;	i,;
 [	o;;i ;["line-height;@;o;;@;;;"1.0;	i2;
 [ ;; o;;i ;["margin;@;T;o;;@;;;" ;	i3;
 [o;;i ;["top;@;o;;@;;;"0%;	i4;
-[ ;; o;;i ;["bottom;@;o;;@;;;"	0.2%;	i5;
+[ ;; o;;i ;["bottom;@;o;;@;;;"	0.9%;	i5;
 [ ;; o;;i ;["	left;@;o;4	;"colwidth;@;5"colwidth;	i6;	i6;
-[ ;; ;; o;;i ;["font-size;@;o;;@;;;"2em;	i8;
+[ ;; ;; o;;i ;["font-size;@;o;;@;;;"1em;	i8;
 [ ;; o;;i ;["font-family;@;o;;@;;;"&'Mate SC', 'Lucida Grande', serif;	i9;
 [ ;; o;;i ;@;T;["h3;o;;[o;;[o;;[o;	;["h3;0;" ;	i<;@
 ;	i<;@

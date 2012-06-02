@@ -1,7 +1,7 @@
 3.1.17 (Brainy Betty)
-e03ffa4016463645812cf9d323093921c852d337
+1c8e914c366f2fee24e2806eeb50c146ceaff8a1
 o:Sass::Tree::RootNode
-:@template"@,/*
+:@template"B,/*
  * HTML5 Boilerplate
  *
  * What follows is the result of much research on cross-browser styling.
@@ -45,8 +45,8 @@ body { margin: 0; font-size: 1em; line-height: 1.4; height: 100%;}
  * Also: hot pink! (or customize the background color to match your design)
  */
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #3d3cc3; color: #fff; text-shadow: none; }
+::selection { background: #3d3cc3; color: #fff; text-shadow: none; }
 
 
 /* =============================================================================
@@ -253,7 +253,7 @@ div#headerbg {
 
 #logo {
   font-family: 'Monofett', 'Courier New', 'Helvetica', sans-serif;
-  font-size: 6em;
+  font-size: 4em;
   line-height: 1.0;
   margin: {
     bottom: 0.2%;
@@ -304,7 +304,7 @@ h3 {
   text-decoration: underline;
   margin: {
     left: $colwidth * 2;
-    bottom: 0%;
+    bottom: 0.2%;
     top: 0%;
   }
   color: #FF4500;
@@ -436,13 +436,13 @@ color;@;o;;@;;;"	#222;	i(;
  */;	i,;
 [ o;;i ;@;T;["::-moz-selection;o;;[o;;[o;;[o:Sass::Selector::Pseudo
 ;["-moz-selection;:element;" :	@arg0;	i2;@T;	i2;@T;	i2;	i2;
-[o;;i ;["background;@;o;;@;;;"#fe57a1;	i2;
+[o;;i ;["background;@;o;;@;;;"#3d3cc3;	i2;
 [ ;; o;;i ;["
 color;@;o;;@;;;"	#fff;	i2;
 [ ;; o;;i ;["text-shadow;@;o;;@;;;"	none;	i2;
 [ ;; o;;i ;@;T;["::selection;o;;[o;;[o;;[o;%
 ;["selection;;&;" ;'0;	i3;@t;	i3;@t;	i3;	i3;
-[o;;i ;["background;@;o;;@;;;"#fe57a1;	i3;
+[o;;i ;["background;@;o;;@;;;"#3d3cc3;	i3;
 [ ;; o;;i ;["
 color;@;o;;@;;;"	#fff;	i3;
 [ ;; o;;i ;["text-shadow;@;o;;@;;;"	none;	i3;
@@ -729,7 +729,7 @@ width;@;o;;@;;;"	100%;	iÛ;
 [ ;; o;;i ;@;T;["
 #logo;o;;[o;;[o;;[o;8;["	logo;" ;	i˚;@2;	i˚;@2;	i˚;	i˚;
 [	o;;i ;["font-family;@;o;;@;;;"7'Monofett', 'Courier New', 'Helvetica', sans-serif;	i¸;
-[ ;; o;;i ;["font-size;@;o;;@;;;"6em;	i˝;
+[ ;; o;;i ;["font-size;@;o;;@;;;"4em;	i˝;
 [ ;; o;;i ;["line-height;@;o;;@;;;"1.0;	i˛;
 [ ;; o;;i ;["margin;@;T;o;;@;;;" ;	iˇ;
 [o;;i ;["bottom;@;o;;@;;;"	0.2%;	i ;
@@ -772,7 +772,7 @@ o;;i ;["text-decoration;@;o;;@;;;"underline;	i-;
 [ ;; o;;i ;["margin;@;T;o;;@;;;" ;	i.;
 [o;;i ;["	left;@;o;1
 ;2o;);*[ ;@;+"2;i;	i/;,@ù;@;3o;4	;"colwidth;@;5"colwidth;	i/;$;<;	i/;	i/;
-[ ;; o;;i ;["bottom;@;o;;@;;;"0%;	i0;
+[ ;; o;;i ;["bottom;@;o;;@;;;"	0.2%;	i0;
 [ ;; o;;i ;["top;@;o;;@;;;"0%;	i1;
 [ ;; ;; o;;i ;["
 color;@;o;;@;;;"#FF4500;	i3;

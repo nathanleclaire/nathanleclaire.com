@@ -42,8 +42,8 @@ body { margin: 0; font-size: 1em; line-height: 1.4; height: 100%;}
  * Also: hot pink! (or customize the background color to match your design)
  */
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #3d3cc3; color: #fff; text-shadow: none; }
+::selection { background: #3d3cc3; color: #fff; text-shadow: none; }
 
 
 /* =============================================================================
@@ -250,7 +250,7 @@ div#headerbg {
 
 #logo {
   font-family: 'Monofett', 'Courier New', 'Helvetica', sans-serif;
-  font-size: 6em;
+  font-size: 4em;
   line-height: 1.0;
   margin: {
     bottom: 0.2%;
@@ -301,7 +301,7 @@ h3 {
   text-decoration: underline;
   margin: {
     left: $colwidth * 2;
-    bottom: 0%;
+    bottom: 0.2%;
     top: 0%;
   }
   color: #FF4500;

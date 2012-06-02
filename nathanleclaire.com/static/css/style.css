@@ -56,12 +56,12 @@ body {
  * Also: hot pink! (or customize the background color to match your design)
  */
 ::-moz-selection {
-  background: #fe57a1;
+  background: #3d3cc3;
   color: #fff;
   text-shadow: none; }
 
 ::selection {
-  background: #fe57a1;
+  background: #3d3cc3;
   color: #fff;
   text-shadow: none; }
 
@@ -329,7 +329,7 @@ div#headerbg {
 
 #logo {
   font-family: 'Monofett', 'Courier New', 'Helvetica', sans-serif;
-  font-size: 6em;
+  font-size: 4em;
   line-height: 1.0;
   margin-bottom: 0.2%;
   margin-left: 7.5%; }
@@ -365,7 +365,7 @@ h2 {
 h3 {
   text-decoration: underline;
   margin-left: 15%;
-  margin-bottom: 0%;
+  margin-bottom: 0.2%;
   margin-top: 0%;
   color: #FF4500;
   font-size: 2em;

@@ -57,6 +57,30 @@ def scribble():
 	flash('New entry was successfully posted')
 	return redirect(url_for('main'))
 
+@app.route('/read')
+def read_entries():
+	if session['logged_in'] == True:
+		cur = g.db.execute('SELECT id, title, text FROM entries ORDER BY id DESC')
+		entries = [dict(title=row[1], id=row[0], text=row[2]) for row in cur.fetchall()]
+		
+		return render_template('peekatentrylist.html', entries=entries)
+	else:
+		return render_template('login.html', error='You are not logged in!')
+
+@app.route('/edit_entry', methods=['GET', 'POST'])
+def edit_entry():
+	if session['logged_in'] == True:
+		cur = g.db.execute('SELECT title, text FROM entries WHERE id='+request.form['postid'])
+		return render_template('edit.html', entry=entry)
+	else:
+		return redirect(url_for('login'))
+
+@app.route('/update', methods=['POST'])
+def update_entry():
+	if session['logged_in'] == True:
+		cur = g.db.execute('UPDATE entries SET title=title, text=text WHERE id='+request.form['id'])
+		return redirect(url_for('read'))
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
 	error = None

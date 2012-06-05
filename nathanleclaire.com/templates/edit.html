@@ -1,16 +1,16 @@
 <!doctype html>
 <html>
-	<head><title>Blog Entry Page</title></head>
+	<head><title>Blog Edit Page</title></head>
 <body>
 {% block body %}
 	<h2>Make Blog Entry</h2>
 	{% if error %}<p class="error"><strong>Error:</strong> {{ error }}{% endif %}
-	<form action="{{ url_for('scribble') }}" method="POST">
+	<form action="{{ url_for('update') }}" method="post">
 		<dl>
 			<dt>Entry Title:
-			<dd><input type="text" name="posttitle">
+			<dd><input type="text" name="posttitle">{{ entry.title }}</input>
 			<dt>Entry Content:
-			<dd><textarea name="postcontent" rows="5" cols="40"></textarea>
+			<dd><textarea name="postcontent" rows="5" cols="40">>{{ entry[0].text }}</textarea>
 			<dd><input type="submit" value="Make Entry">
 		</dl>
 	</form>

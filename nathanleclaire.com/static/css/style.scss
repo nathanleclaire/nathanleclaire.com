@@ -134,9 +134,9 @@ figure { margin: 0; }
 
 /* =============================================================================
    Forms
-   ========================================================================== */
+   ==================================================*======================== */
 
-form { margin: 0; }
+form { margin: 0; display: inline-block;} 
 fieldset { border: 0; margin: 0; padding: 0; }
 
 /* Indicate that 'label' will shift focus to the associated form element */
@@ -260,6 +260,20 @@ div#headerbg {
   }
 }
 
+.entree {
+  display: block;
+  margin: {
+    left: 2%;
+    right: 2%;
+    bottom: 2%;
+    top: 2%;
+  }
+}
+
+input {
+  float: left;
+}
+
 #main {
   height: 100%;
 }
@@ -268,7 +282,7 @@ div#headerbg {
   border-radius: 14px;
   background-color: rgba(255, 255, 255, 0.7);
   width: 90%;
-  margin: 0% auto;
+  margin: 3% auto;
   -webkit-box-shadow: 5px -6px 5px rgba(12, 0, 12, 0.53);
   -moz-box-shadow:    5px -6px 5px rgba(12, 0, 12, 0.53);
   box-shadow:         5px -6px 5px rgba(12, 0, 12, 0.53);
@@ -282,6 +296,10 @@ p {
     top: 0%;
     bottom: 0%;
   }
+}
+
+#befooter {
+  text-align: center;
 }
 
 ul#frontpage {
@@ -298,6 +316,24 @@ ul#frontpage {
     right: 2.2%;
     bottom: 2.2%;
   }
+}
+
+.readid {
+  color: lighten(purple, 50);
+}
+
+.monadentry {
+  font-size: 1.0em;
+}
+
+a.del {
+  color: red;
+  margin-left: 2%;
+}
+
+a.edit {
+  color: lighten(green, 30);
+    margin-left: 2%;
 }
 
 h2 {

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<title>Edit Entries</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="../static/css/style.css">
+</head>
+<div class="blogg">
+  <div class="read">
+    {% for entry in entries %}
+    <div class="entree">
+     <div class="heading"><strong class="readid"> {{ entry.id }} </strong> {{ entry.title }}</div>
+     <p>{{ entry.text }}</p>
+      	<form action="edit_entry" method="post">
+          <input type="hidden" value="{{ entry.id }}" name="id">
+          </input>
+          <input type="submit" value="Edit Entry"></input>
+        </form>
+      	<form action="delete_entry" method="post">
+          <input type="hidden" value="{{ entry.id }}" name="id">
+          </input>
+          <input type="submit" value="Delete Entry"></input>
+        </form>
+
+      </div>
+
+    {% else %}
+      <p>No entries so far.</p>
+    {% endfor %}
+  </div>
+</div>
+<div id="befooter"><a href="/make_entry">Make New Entry</div>

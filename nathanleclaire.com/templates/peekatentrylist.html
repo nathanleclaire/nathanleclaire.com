@@ -11,11 +11,7 @@
     <div class="entree">
      <div class="heading"><strong class="readid"> {{ entry.id }} </strong> {{ entry.title }}</div>
      <p>{{ entry.text }}</p>
-      	<form action="edit_entry" method="post">
-          <input type="hidden" value="{{ entry.id }}" name="id">
-          </input>
-          <input type="submit" value="Edit Entry"></input>
-        </form>
+      	<a href="edit_entry/{{ entry.id }}">Edit Entry</a>
       	<form action="delete_entry" method="post">
           <input type="hidden" value="{{ entry.id }}" name="id">
           </input>

@@ -61,25 +61,32 @@ def scribble():
 def read_entries():
 	if session['logged_in'] == True:
 		cur = g.db.execute('SELECT id, title, text FROM entries ORDER BY id DESC')
-		entries = [dict(title=row[1], id=row[0], text=row[2]) for row in cur.fetchall()]
-		
+		entries = [dict(id=row[0], title=row[1], text=row[2]) for row in cur.fetchall()]
 		return render_template('peekatentrylist.html', entries=entries)
 	else:
 		return render_template('login.html', error='You are not logged in!')
 
-@app.route('/edit_entry', methods=['GET', 'POST'])
-def edit_entry():
+def query_db(query, args=(), one=False):
+    cur = g.db.execute(query, args)
+    rv = [dict((cur.description[idx][0], value)
+               for idx, value in enumerate(row)) for row in cur.fetchall()]
+    return (rv[0] if rv else None) if one else rv
+
+@app.route('/edit_entry/<int:post_id>')
+def edit_entry(post_id):
 	if session['logged_in'] == True:
-		cur = g.db.execute('SELECT title, text FROM entries WHERE id='+request.form['postid'])
-		return render_template('edit.html', entry=entry)
+		entry = query_db('SELECT title, text FROM entries WHERE id='+str(post_id))
+		return render_template('edit.html', entry=entry, post_id=post_id)
 	else:
 		return redirect(url_for('login'))
 
-@app.route('/update', methods=['POST'])
+@app.route('/update_entry', methods=['POST'])
 def update_entry():
 	if session['logged_in'] == True:
-		cur = g.db.execute('UPDATE entries SET title=title, text=text WHERE id='+request.form['id'])
-		return redirect(url_for('read'))
+		cur = g.db.execute('UPDATE entries SET title='+request.form['posttitle']+', text='+request.form['postcontent']+' WHERE id='+request.form['id'])
+		return redirect(url_for('read_entries'))
+	else:
+		return redirect(url_for('login'))
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():

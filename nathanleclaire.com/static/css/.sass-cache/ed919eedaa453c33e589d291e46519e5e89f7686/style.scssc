@@ -1,5 +1,5 @@
 3.1.17 (Brainy Betty)
-49de3a7efd19d8f847b735bb3fe840e08dfd8ee2
+33452d146957a9a1fe51e28aa921c4e15fc28579
 o:Sass::Tree::RootNode
 :@template"A//*
  * HTML5 Boilerplate
@@ -285,7 +285,7 @@ input {
   border-radius: 14px;
   background-color: rgba(255, 255, 255, 0.7);
   width: 90%;
-  margin: 3% auto;
+  margin: 1% auto;
   -webkit-box-shadow: 5px -6px 5px rgba(12, 0, 12, 0.53);
   -moz-box-shadow:    5px -6px 5px rgba(12, 0, 12, 0.53);
   box-shadow:         5px -6px 5px rgba(12, 0, 12, 0.53);
@@ -815,7 +815,7 @@ blogg;" ;	i;@Ê;	i;@Ê;	i;	i;
 ;"	rgba;:{ ;@;;[	o;);*[ ;@;+"255;iÿ;	i;,@£o;);*[ ;@;+"255;iÿ;	i;,@£o;);*[ ;@;+"255;iÿ;	i;,@£o;);*[ ;@;+"0.7;f0.69999999999999996 ff;	i;,@£;	i;	i;
 [ ;; o;;i ;["
 width;@;o;;@;;;"90%;	i;
-[ ;; o;;i ;["margin;@;o;;@;;;"3% auto;	i;
+[ ;; o;;i ;["margin;@;o;;@;;;"1% auto;	i;
 [ ;; o;;i ;["-webkit-box-shadow;@;o:Sass::Script::List	:@separator:
 space;@;[	o;);*["px;@;+"5px;i
 ;	i;,[ o;);*["px;@;+"	-6px;iõ;	i;,[ o;);*["px;@;+"5px;i

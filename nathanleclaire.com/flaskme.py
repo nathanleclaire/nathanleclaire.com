@@ -82,11 +82,12 @@ def edit_entry(post_id):
 
 @app.route('/update_entry', methods=['POST'])
 def update_entry():
-	if session['logged_in'] == True:
-		cur = g.db.execute('UPDATE entries SET title='+request.form['posttitle']+', text='+request.form['postcontent']+' WHERE id='+request.form['id'])
-		return redirect(url_for('read_entries'))
-	else:
-		return redirect(url_for('login'))
+	if not session.get('logged_in'):
+		abort(401)
+	g.db.execute("UPDATE entries SET title='%(posttitle)s', text='%(postcontent)s' WHERE id=%(id)s" % request.form)
+	g.db.commit()
+	flash('successfully updated database')
+	return redirect(url_for('read_entries'))
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():

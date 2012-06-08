@@ -89,6 +89,15 @@ def update_entry():
 	flash('successfully updated database')
 	return redirect(url_for('read_entries'))
 
+@app.route('/delete_entry/<int:post_id>')
+def delete_entry(post_id):
+	if not session.get('logged_in'):
+		abort(401)
+	g.db.execute("DELETE FROM entries WHERE id=%s" % post_id)
+	g.db.commit()
+	flash('successfully deleted from database')
+	return redirect(url_for('read_entries'))
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
 	error = None
@@ -100,7 +109,7 @@ def login():
 		else:
 			session['logged_in'] = True
 			flash('You were logged in')
-			return redirect(url_for('make_entry'))
+			return redirect(url_for('read_entries'))
 	return render_template('login.html', error=error)
 
 if __name__ == '__main__':

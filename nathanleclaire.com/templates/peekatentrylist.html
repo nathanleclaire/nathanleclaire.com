@@ -12,12 +12,7 @@
      <div class="heading"><strong class="readid"> {{ entry.id }} </strong> {{ entry.title }}</div>
      <p>{{ entry.text }}</p>
       	<a href="edit_entry/{{ entry.id }}">Edit Entry</a>
-      	<form action="delete_entry" method="post">
-          <input type="hidden" value="{{ entry.id }}" name="id">
-          </input>
-          <input type="submit" value="Delete Entry"></input>
-        </form>
-
+      	<a href="delete_entry/{{ entry.id }}" class="separate">Delete Entry</a>
       </div>
 
     {% else %}

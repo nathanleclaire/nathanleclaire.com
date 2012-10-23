@@ -112,5 +112,9 @@ def login():
 			return redirect(url_for('read_entries'))
 	return render_template('login.html', error=error)
 
+@app.route('/funnybonesmotherfucker')
+def funnybonessurprise():
+        return render_template('funnybones.html')
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
